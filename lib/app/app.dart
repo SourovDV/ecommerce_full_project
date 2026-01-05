@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         Locale('bn'), // Spanish
       ],
       locale: Locale("en"),
-      theme: ThemeData(colorSchemeSeed: Color(0xFF07ADAE0)),
+      theme: ThemeData(colorSchemeSeed: Color(0xFF07ADAE0),scaffoldBackgroundColor: Colors.white),
       initialRoute: AppRoutes.initialRoute,
       getPages: AppRoutes.routes,
     );
