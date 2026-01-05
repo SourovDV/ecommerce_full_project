@@ -1,14 +1,29 @@
-import 'package:ecommerce_full_project/routes/app_routes.dart';
+import 'package:ecommerce_full_project/app/app_routes.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
+import '../l10n/app_localizations.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(debugShowCheckedModeBanner: false,
-    initialRoute:AppRoutes.initialRoute,
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      localizationsDelegates: [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: [
+        Locale('en'), // English
+        Locale('bn'), // Spanish
+      ],
+      locale: Locale("en"),
+      theme: ThemeData(colorSchemeSeed: Color(0xFF07ADAE0)),
+      initialRoute: AppRoutes.initialRoute,
       getPages: AppRoutes.routes,
     );
   }
