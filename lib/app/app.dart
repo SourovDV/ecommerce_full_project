@@ -22,7 +22,13 @@ class MyApp extends StatelessWidget {
         Locale('bn'), // Spanish
       ],
       locale: Locale("en"),
-      theme: ThemeData(colorSchemeSeed: Color(0xFF07ADAE0),scaffoldBackgroundColor: Colors.white),
+      theme: ThemeData(colorSchemeSeed: Color(0xFF07ADAE0),
+          scaffoldBackgroundColor: Colors.white,
+        textTheme:TextTheme(
+          titleLarge: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+          titleSmall: TextStyle(fontSize: 18,fontWeight: FontWeight.w400),
+        )
+      ),
       initialRoute: AppRoutes.initialRoute,
       getPages: AppRoutes.routes,
     );

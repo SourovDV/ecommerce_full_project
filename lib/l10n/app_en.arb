@@ -1,6 +1,10 @@
 {
-  "helloWorld": "Hello World!",
-  "english": "Do you want to learn english",
+  "version": "Version",
+  "welcomeBack": "Welcome Back",
+  "pleaseEnterEmail": "Please Enter your Email Address",
+  "enterYourEmail": "Enter your email Address",
+  "enterYourPassword": "Enter your Password",
+  "next": "Next",
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
   }

@@ -1,4 +1,8 @@
 {
-  "helloWorld": "সৌরভ চন্দ্র",
-  "english": "তুমি কি ইংরেজি শিখতে চাও"
+  "version": "ভারসন",
+  "welcomeBack": "ওয়েলকাম বেক",
+  "pleaseEnterEmail": "দয়া করে আপনার ইমেইল অ্যাড্রেস দিন",
+  "enterYourEmail": "আপনার ইমেইল দিন",
+  "enterYourPassword": "আপনার পাসওয়াড দিন",
+  "next": "নেক্স"
 }

@@ -20,7 +20,7 @@ class SplashView extends StatelessWidget {
               const Spacer(),
               CircularProgressIndicator(),
               SizedBox(height: 20,),
-              Text("version ${AppLocalizations.of(context)!.english} ${AppVersion.currentAppVersion}")
+              Text("${AppLocalizations.of(context)!.version} ${AppVersion.currentAppVersion}")
 
             ],
           ),
