@@ -1,6 +1,5 @@
 import 'package:ecommerce_full_project/app/app_color.dart';
 import 'package:flutter/material.dart';
-
 class CommonTextFormField extends StatelessWidget {
   const CommonTextFormField({
     super.key, required this.text,

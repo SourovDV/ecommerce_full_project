@@ -7,10 +7,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 class SignInView extends GetView<SignInController> {
   const SignInView({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
