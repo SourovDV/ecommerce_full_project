@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         Locale('en'), // English
         Locale('bn'), // Spanish
       ],
-      locale: Locale("en"),
+      locale: Locale("bn"),
       theme: ThemeData(colorSchemeSeed: Color(0xFF07ADAE0),
           scaffoldBackgroundColor: Colors.white,
         textTheme:TextTheme(
@@ -27,6 +27,8 @@ class MyApp extends StatelessWidget {
           titleSmall: TextStyle(fontSize: 18,fontWeight: FontWeight.w400),
         )
       ),
+
+
       initialRoute: AppRoutes.initialRoute,
       getPages: AppRoutes.routes,
     );

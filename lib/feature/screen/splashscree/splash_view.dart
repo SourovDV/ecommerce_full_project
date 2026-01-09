@@ -9,7 +9,6 @@ class SplashView extends StatelessWidget {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-
         child: Center(
           child: Column(
             children: [
