@@ -3,8 +3,6 @@ import 'package:ecommerce_full_project/core/extenstion/localization_extenstion.d
 import 'package:ecommerce_full_project/feature/common/common_button.dart';
 import 'package:ecommerce_full_project/feature/common/common_field.dart';
 import 'package:ecommerce_full_project/feature/screen/SignInScreen/sign_in_controller.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 class SignInView extends GetView<SignInController> {
