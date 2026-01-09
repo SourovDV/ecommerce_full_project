@@ -4,6 +4,7 @@ class CommonTextFormField extends StatelessWidget {
   const CommonTextFormField({
     super.key, required this.text,
   });
+
   final String text;
   @override
   Widget build(BuildContext context) {

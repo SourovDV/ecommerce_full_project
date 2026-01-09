@@ -27,9 +27,13 @@ class SignInView extends GetView<SignInController> {
                 const SizedBox(height: 10,),
                 CommonTextFormField(text: context.localizations.enterYourPassword)
               ],
+
+
             )),
             const SizedBox(height: 20,),
             CommonElevatedButton(text: context.localizations.next)
+
+
           ],
         ),
       ),
