@@ -27,8 +27,6 @@ class MyApp extends StatelessWidget {
           titleSmall: TextStyle(fontSize: 18,fontWeight: FontWeight.w400),
         )
       ),
-
-
       initialRoute: AppRoutes.initialRoute,
       getPages: AppRoutes.routes,
     );
