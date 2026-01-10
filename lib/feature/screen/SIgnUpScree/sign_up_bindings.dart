@@ -4,9 +4,7 @@ import 'package:get/get.dart';
 class SignUpBindings extends Bindings{
   @override
   void dependencies() {
-
     Get.put(SignUpController());
-
   }
 
 }
