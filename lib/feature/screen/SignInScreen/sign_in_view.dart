@@ -3,6 +3,7 @@ import 'package:ecommerce_full_project/core/extenstion/localization_extenstion.d
 import 'package:ecommerce_full_project/feature/common/common_button.dart';
 import 'package:ecommerce_full_project/feature/common/common_field.dart';
 import 'package:ecommerce_full_project/feature/screen/SignInScreen/sign_in_controller.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 class SignInView extends GetView<SignInController> {
@@ -28,12 +29,13 @@ class SignInView extends GetView<SignInController> {
                 CommonTextFormField(text: context.localizations.enterYourPassword)
               ],
 
-
             )),
             const SizedBox(height: 20,),
-            CommonElevatedButton(text: context.localizations.next)
+            CommonElevatedButton(text: context.localizations.next),
+            ElevatedButton(onPressed: (){
 
-
+              FirebaseCrashlytics.instance.crash();
+            }, child: Text("ok"))
           ],
         ),
       ),
