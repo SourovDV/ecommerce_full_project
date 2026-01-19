@@ -13,7 +13,7 @@ class CommonElevatedButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(8),
           ),
           padding: const EdgeInsets.symmetric(
-            vertical: 20,
+            vertical: 16,
           ),
           backgroundColor: AppColor.themeColor,
         ),

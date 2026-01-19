@@ -12,7 +12,7 @@ class SignInView extends GetView<SignInController> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(40),
+        padding: EdgeInsets.all(20),
         child: Column(
           children: [
             SizedBox(height: 80,),
@@ -31,9 +31,6 @@ class SignInView extends GetView<SignInController> {
             )),
             const SizedBox(height: 20,),
             CommonElevatedButton(text: context.localizations.next),
-            ElevatedButton(onPressed: (){
-              FirebaseCrashlytics.instance.crash();
-            }, child: Text("ok"))
           ],
         ),
       ),
