@@ -1,9 +1,7 @@
 import 'dart:ui';
-
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/cupertino.dart';
-
 import 'app/app.dart';
 import 'firebase_options.dart';
 
